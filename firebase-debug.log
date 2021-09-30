@@ -1,0 +1,74 @@
+[debug] [2021-08-04T05:22:41.274Z] ----------------------------------------------------------------------
+[debug] [2021-08-04T05:22:41.276Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sujan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-08-04T05:22:41.276Z] CLI Version:   9.10.2
+[debug] [2021-08-04T05:22:41.276Z] Platform:      win32
+[debug] [2021-08-04T05:22:41.276Z] Node Version:  v12.18.4
+[debug] [2021-08-04T05:22:41.277Z] Time:          Wed Aug 04 2021 10:52:41 GMT+0530 (India Standard Time)
+[debug] [2021-08-04T05:22:41.278Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-04T05:22:41.280Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-08-04T05:22:41.300Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-04T05:22:41.300Z] > authorizing via signed-in user (sujananand0@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Sujan
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[debug] [2021-08-04T05:22:42.119Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-08-04T05:22:51.992Z] ----------------------------------------------------------------------
+[debug] [2021-08-04T05:22:51.993Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sujan\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-08-04T05:22:51.994Z] CLI Version:   9.10.2
+[debug] [2021-08-04T05:22:51.994Z] Platform:      win32
+[debug] [2021-08-04T05:22:51.994Z] Node Version:  v12.18.4
+[debug] [2021-08-04T05:22:51.995Z] Time:          Wed Aug 04 2021 10:52:51 GMT+0530 (India Standard Time)
+[debug] [2021-08-04T05:22:51.995Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-08-04T05:22:52.003Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-04T05:22:52.003Z] > authorizing via signed-in user (sujananand0@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Sujan
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using clone-f5f30. 
+[debug] [2021-08-04T05:22:58.176Z] > refreshing access token with scopes: []
+[debug] [2021-08-04T05:22:58.177Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-04T05:22:58.458Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Wed, 04 Aug 2021 05:22:58 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-04T05:22:58.470Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/clone-f5f30 [none]
+[debug] [2021-08-04T05:22:58.869Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/clone-f5f30 200
+[debug] [2021-08-04T05:22:58.869Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/clone-f5f30 {"projectId":"clone-f5f30","projectNumber":"590199258867","displayName":"gmail-clone","name":"projects/clone-f5f30","resources":{"hostingSite":"clone-f5f30","storageBucket":"clone-f5f30.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
